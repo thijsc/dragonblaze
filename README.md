@@ -8,6 +8,24 @@ You can create animations in Pixelblaze. Use lightning channels in Dragonframe w
 
 ## How to use
 
+Dragonblaze sets the brightness and some variables based on the state of
+Dragonframe.
+
+### Brightness
+
+Lighthing channel 1 in Dragonframe is used to set the global Pixelblaze
+brightness.
+
+### Channels
+
+Lighthing 2 and up are mapped to the `channel_2` and up variables.
+
+### Position
+
+The variable `position` is filled with the current frame number.
+
+### Example
+
 Some example Pixelblaze code:
 
 ```javascript
