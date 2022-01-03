@@ -1,0 +1,28 @@
+[package]
+name = "dragonblaze"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "*"
+artnet_protocol = {git = "https://github.com/thijsc/artnet_protocol.git"}
+serde_json = "*"
+log = "*"
+simple_logger = "*"
+
+[dependencies.websocket]
+version = "*"
+default-features = false
+features = ["sync"]
+
+[lib]
+name = "dragonblaze"
+path = "src/lib.rs"
+
+[[bin]]
+name = "dragonblaze"
+path = "src/bin/dragonblaze.rs"
+
+[[bin]]
+name = "dragonframe"
+path = "src/bin/dragonframe.rs"
