@@ -2,7 +2,7 @@
 
 Dragonblaze is a tool to use RGB led strips in your stop motion projects. It is a proxy that controls a [Pixelblaze](https://www.bhencke.com/pixelblaze) using DMX and frame position information from [Dragonframe](https://www.dragonframe.com).
 
-You can create animations in Pixelblaze. Use lightning channels in Dragonframe which are mapped to variables on the Pixelblaze side. This lets you create animated lightning effects that look fluid when shot in stop motion:
+You can create animations in Pixelblaze. You can use lightning channels in Dragonframe which are mapped to variables on the Pixelblaze side. This lets you create animated lightning effects that look fluid when shot in stop motion:
 
 ![LED example](docs/example.gif)
 
